@@ -69,8 +69,7 @@ try {
       const timeFormat = `${hours}:${minutes}:${seconds}`;  
       api.sendMessage(`[ GROUP UPDATE ]\n❯ ${(logMessageData.video) ? 'Video' : ''} call has ended.\n❯ Call duration: ${timeFormat}`, threadID);  
     } else if (logMessageData.joining_user) {  
-      const name = await Users.getNameUser(logMessageData.joining_user);  
-      api.sendMessage(`❯ [ GROUP UPDATE ]\n❯ ${name} Joined the ${(logMessageData.group_call_type == '') ? 'Video' : ''} call পাপীর দল কল থেকে নামা উঠা করিস কেন কল সাপোর্ট দে 😡😈💔.`, threadID);  
+      const name = await Users.getNameUser(logMessageData.joining_user);    
     }  
     break;  
         }  
