@@ -24,6 +24,7 @@ const emojiAudioMap = {
  "😞": "https://files.catbox.moe/tdimtx.mp3",
  "🤫": "https://files.catbox.moe/0uii99.mp3",
  "🐔": "https://files.catbox.moe/0vwpq1.mp3",
+ "🍼": "https://files.catbox.moe/p6ht91.mp3",
  "🤔": "https://files.catbox.moe/hy6m6w.mp3",
  "🤐": "https://files.catbox.moe/sd21t9.mp3",
  "🥰": "https://files.catbox.moe/2ykkbw.mp3",
