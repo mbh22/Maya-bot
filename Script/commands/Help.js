@@ -43,10 +43,10 @@ module.exports.languages = {
 
 // 🔹 এখানে আপনার ফটো Imgur লিংক করে বসাবেন ✅
 const helpImages = [
-    "https://i.imgur.com/sxSn1K3.jpeg",
-    "https://i.imgur.com/8WvpgUL.jpeg",
-    "https://i.imgur.com/8WvpgUL.jpeg",
-    "https://i.imgur.com/sxSn1K3.jpeg"
+    "https://i.imgur.com/UEQcgUh.jpeg",
+    "https://i.imgur.com/JRAMMUR.jpeg",
+    "https://i.imgur.com/UEQcgUh.jpeg",
+    "https://i.imgur.com/JRAMMUR.jpeg"
 ];
 
 
@@ -80,7 +80,9 @@ module.exports.handleEvent = function ({ api, event, getText }) {
         command.config.commandCategory || "Unknown",  
         command.config.cooldowns || 0,  
         prefix,  
-        global.config.BOTNAME || "𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭"  
+        global.config.BOTNAME || "𝗠𝗕𝗛 𝗢𝘃𝗶Android Download 👉: https://st.simpledesign.ltd/fqy2M3
+
+iOS Download 👉: https://apps.apple.com/app/id1636254820"  
     );  
 
     downloadImages(files => {  
@@ -143,8 +145,8 @@ module.exports.run = function ({ api, event, args, getText }) {
 ${msg}
 ┣━━━━━━━━━━━━━━━━┫
 ┃ ⚙ Prefix: ${prefix}
-┃ 🤖 Bot Name: ${global.config.BOTNAME || "𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭"}
-┃ 👑 Owner: 𝐒𝐇𝐀𝐇𝐀𝐃𝐀𝐓 𝐒𝐀𝐇𝐔
+┃ 🤖 Bot Name: ${global.config.BOTNAME || "𝗠𝗕𝗛 𝗼𝘃𝗶 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭"}
+┃ 👑 Owner: 𝗠𝗕𝗛  𝗢𝘃𝗶
 ╰━━━━━━━━━━━━━━━━╯`;
 
     downloadImages(files => {  
